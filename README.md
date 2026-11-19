@@ -12,10 +12,10 @@
   - **Functional Coding Sequence (CDS):** Catalytic enzyme sequence (`enzyme_seq`, 57 bp)
   - **Transcription Terminator:** Polyadenylation signal (`AATAAA`)
 - **Orthogonal Quantum Nucleotide Mapping:** Direct Hilbert-space state preparation encoding biological nitrogenous bases into discrete single-qubit registers:
-  - **Adenine (A):** $|0\rangle$ (Ground computational basis state / `pass`)
-  - **Thymine (T):** $|1\rangle$ via Pauli-$X$ gate
-  - **Cytosine (C):** $|+\rangle$ via Hadamard ($H$)
-  - **Guanine (G):** $|-\rangle$ via Pauli-$X$ followed by Hadamard ($H$) gate
+  - **Adenine (A):** $|0\rangle$ 
+  - **Thymine (T):** $|1\rangle$ 
+  - **Cytosine (C):** $|+\rangle$ 
+  - **Guanine (G):** $|-\rangle$ 
 - **Target Scar Oracle with Hermitian Uncomputation:**
   - **Pre-computation:** Rotates candidate biological target scars into the $|11\dots 1\rangle$ activation state.
   - **Phase Kickback:** Inverts the quantum phase of the marked target via an $(n-1)$-controlled NOT gate (`MCXGate`) conjugated by Hadamard gates on the target register.
