@@ -14,7 +14,7 @@
 - **Orthogonal Quantum Nucleotide Mapping:** Direct Hilbert-space state preparation encoding biological nitrogenous bases into discrete single-qubit registers:
   - **Adenine (A):** $|0\rangle$ (Ground computational basis state / `pass`)
   - **Thymine (T):** $|1\rangle$ via Pauli-$X$ gate
-  - **Cytosine (C):** $|+\rangle$ via Hadamard ($H$) followed by Pauli-$X$ gate
+  - **Cytosine (C):** $|+\rangle$ via Hadamard ($H$)
   - **Guanine (G):** $|-\rangle$ via Pauli-$X$ followed by Hadamard ($H$) gate
 - **Target Scar Oracle with Hermitian Uncomputation:**
   - **Pre-computation:** Rotates candidate biological target scars into the $|11\dots 1\rangle$ activation state.
